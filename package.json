@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "author": "Izaak Schroeder <izaak.schroeder@gmail.com>",
   "main": "dist/json.js",
+  "license": "CC0-1.0",
+  "repository": "adana-coverage/adana-format-json",
   "scripts": {
     "lint": "./node_modules/.bin/eslint --ignore-path .gitignore .",
     "prepublish": "./node_modules/.bin/babel -s inline -d dist src/",
